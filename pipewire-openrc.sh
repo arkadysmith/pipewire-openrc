@@ -2,7 +2,8 @@
 set -e
 
 cd ~/
-pacman -Syu pipewire-openrc pipewire-pulse-openrc wireplumber-openrc &&
+sudo pacman -Syu pipewire pipewire-pulse wireplumber &&
+sudo pacman -Syu pipewire-openrc pipewire-pulse-openrc wireplumber-openrc &&
 
 #Setup
 
