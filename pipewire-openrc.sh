@@ -4,7 +4,7 @@ set -e
 cd ~/
 pacman -Syu pipewire-openrc pipewire-pulse-openrc wireplumber-openrc &&
 
-Setup
+#Setup
 
 ##create runlevel by user ID (e.g. default UID is 1000, can check it bay "echo $UID")----
 
